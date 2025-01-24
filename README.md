@@ -1,4 +1,4 @@
-Drag-and-Drop Calendar with FullCalendar
+Drag-and-Drop Calendar with FullCalendar:
 This is a React.js application that demonstrates the use of drag-and-drop functionality with the FullCalendar library. The project provides an interactive scheduling interface where users can drag predefined events and drop them into specific time slots on a weekly calendar view. It also includes state persistence, ensuring events remain in their last position even after a page refresh.
 
 Features:
@@ -16,8 +16,8 @@ State Persistence:
 The positions of events are saved using localStorage.
 Events persist in their last dropped positions even after the page is refreshed.
 
-Tech Stack
-React.js: For building the user interface and managing state.
+Tech Stack:
+React.js - For building the user interface and managing state.
 FullCalendar: For rendering the calendar and enabling drag-and-drop functionality.
 Plugins used: timeGrid, interaction.
 LocalStorage: For persisting event data.
