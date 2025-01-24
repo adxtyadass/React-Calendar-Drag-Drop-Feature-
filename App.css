@@ -1,0 +1,37 @@
+.App {
+  font-family: Tahoma;
+  padding: 20px;
+}
+
+/* Draggable items container */
+.draggable-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for draggable items */
+.draggable-item {
+  padding: 10px 20px;
+  background-color: #a52929;
+  color: rgb(255, 255, 255);
+  border-radius: 29px;
+  cursor: grab;
+  user-select: none;
+}
+
+/* Hover effect for draggable items */
+.draggable-item:hover {
+  background-color: #6387ae;
+}
+
+/* Highlighting drop area in the calendar */
+.fc-highlight {
+  background-color: rgba(0, 123, 255, 0.3) !important;
+  border: 2px dashed #007bff !important;
+}
+
+/* Calendar container spacing */
+.fc {
+  margin-top: 20px;
+}
