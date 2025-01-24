@@ -17,7 +17,7 @@ The positions of events are saved using localStorage.
 Events persist in their last dropped positions even after the page is refreshed.
 
 Tech Stack
-*React.js: *For building the user interface and managing state.
+React.js: For building the user interface and managing state.
 FullCalendar: For rendering the calendar and enabling drag-and-drop functionality.
 Plugins used: timeGrid, interaction.
 LocalStorage: For persisting event data.
